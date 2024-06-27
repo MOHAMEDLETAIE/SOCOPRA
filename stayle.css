@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.images{
+    
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.images div{
+    width: 27%;
+    height: 200px
+    
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    
+}
+i{
+    color: white;
+    
+}
+#titl{
+    text-decoration: underline;
+}
+body{ background-image: url("./socopra1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+nav{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height:70%;
+    background-color: red;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#HELO{
+    font-size: 5.5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.search_img{
+    width:25px;
+    position:absolute;
+    top:28px;
+    left:12px;
+    filter: brightness(0) saturate(100%) invert(9%) sepia(86%) saturate(3078%) hue-rotate(224deg) brightness(81%) contrast(106%);
+
+}
+.search{
+    /* padding-top:15px; */
+    background-color: transparent;
+  
+    align-items: center;
+    position:relative;
+}
+.input_search{
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    padding-left: 80px;
+    width:50%;
+    height:20px;
+    font-weight: 500;
+    color:#02195f;
+    border-radius: 50px;
+    outline: none;
+    margin: -10%;
+    
+    
+
+}
+
+
+    a :hover{box-shadow: -1px 1px 0px 6px rgba(1, 1, 249, 0.57);
+        -webkit-box-shadow: -1px 1px 0px 6px rgb(0, 0, 255);
+        -moz-box-shadow: -1px 1px 0px 6px rgba(20,20,231,0.57);}
+
+
+
+
+
+
+
+
+
+    
+    
+
